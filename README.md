@@ -14,11 +14,7 @@ This report has been developed to analyse the sales performance for F2024 coveri
 
 <img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/918c9d2b-8389-4205-a7a2-b50830c317a7" />
 
-<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/0b1bb0c7-e4ce-4190-a2b1-c1fd53fb1078" />
-
-
-
-
+<img width="800" height="700" alt="image" src="https://github.com/user-attachments/assets/ee429244-a9cf-46aa-8be1-93178e16b4c1" />
 
 
 * After achieving its highest sales revenue in 2023, TechNova saw its revenue decline in 2024 by about 50% compared to its best year at only $9.26M.
