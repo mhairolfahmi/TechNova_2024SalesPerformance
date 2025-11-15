@@ -23,7 +23,7 @@ This report has been developed to analyse the sales performance for 2020 - 2024 
 
 ### Sales Trends
 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/cebb47bf-5423-4fa7-92a7-0ce575c1ab83" />
+<img width="1000" height="1200" alt="image" src="https://github.com/user-attachments/assets/cebb47bf-5423-4fa7-92a7-0ce575c1ab83" />
 
 
 Sales Revenue
