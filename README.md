@@ -12,8 +12,8 @@ This report has been developed to analyse the sales performance for F2024 coveri
   
 ## Executive Summary 
 
-<img width="1134" height="612" alt="image" src="https://github.com/user-attachments/assets/bd6b36c2-804b-4123-a905-f6a2549a0f41" />
-<img width="1124" height="699" alt="image" src="https://github.com/user-attachments/assets/43343010-2cbb-4b60-a5f5-be085b8bab3a" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/bd6b36c2-804b-4123-a905-f6a2549a0f41" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/43343010-2cbb-4b60-a5f5-be085b8bab3a" />
 
 
 
