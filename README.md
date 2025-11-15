@@ -21,10 +21,9 @@ This report has been developed to analyse the sales performance for 2020 - 2024 
 
 ## Insight Deep Dive
 
-### Sales Trends
-
 <img width="1000" height="1200" alt="image" src="https://github.com/user-attachments/assets/cebb47bf-5423-4fa7-92a7-0ce575c1ab83" />
 
+### Sales Trends
 
 Sales Revenue
 * TechNova recorded its highest monthly sales in December 2023, reaching $2.45M, which is nearly 2.7 times above the average monthly sales of $0.92M.
