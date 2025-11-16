@@ -39,6 +39,9 @@ Aov
 * Aov is remained relatively stable  at average 2.17K from 2020 to 2023, peak at april 2024 at 3.23K and lowest at 1.54K at october 2024.
 * Despite strong growth in total orders and sales revenue during 2022 and 2023, AOV consistently declined year-over-year at range -1% to -7%.
 * This indicatingmost of the sales transaction is tended to be in smaller size or lower in spends.
+
+<img width="819" height="362" alt="image" src="https://github.com/user-attachments/assets/1bd5d536-c0ff-46de-bf57-99591f518368" />
+
   
 
 
