@@ -2,7 +2,8 @@
 
 ## Company Background
 
-<img width="623" height="649" alt="image" src="https://github.com/user-attachments/assets/901a2cc2-5be6-4252-997b-6deac4093143" />
+<img width="851" height="566" alt="image" src="https://github.com/user-attachments/assets/605cfe65-0a14-41b3-8e9d-43ee03cfff69" />
+
 
   
 
