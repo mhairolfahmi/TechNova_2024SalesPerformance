@@ -1,3 +1,5 @@
+--Cleaning--
+
 -- sales TABLE
 --check null value in importance column
 SELECT StoreKey, ProductKey
@@ -17,3 +19,77 @@ ALTER TABLE Products
 ADD COLUMN UnitCost;
 UPDATE Products
 SET UnitCost = CAST(REPLACE(REPLACE(UnitCostUSD, '$', ''), ',', '') AS REAL);
+
+
+--EDA--
+
+
+--products
+SELECT DISTINCT ProductName, Brand
+FROM Products
+GROUP BY ProductName, Brand;-- There is 2517 products sold by TechNova
+
+SELECT DISTINCT Category
+FROM Products;--8 PRODUCTS category 
+
+SELECT DISTINCT Category, COUNT(*) AS num_item
+FROM Products
+GROUP BY Category;-- most of item sold is from home appliances and computers
+
+SELECT DISTINCT Subcategory
+FROM Products;-- 32 subcategory Products
+
+SELECT DISTINCT Brand
+FROM Products;--11 brands
+
+SELECT DISTINCT MIN(UnitPrice), MAX(unitPrice)
+FROM Products;-- the highest price is 3199.99 and lowest is 0.95
+
+SELECT ProductName, UnitPrice - UnitCost AS profit_margin
+FROM Products
+GROUP BY ProductName 
+ORDER BY profit_margin;-- refrigerator have the highest margin and usb data have the lowest margin
+
+--CUSTOMER TABLE
+
+SELECT COUNT(CustomerKey)
+FROM Customers;-- total 15266 customer 
+
+SELECT Country, COUNT(CustomerKey) AS people_count
+FROM Customers
+GROUP BY Country
+ORDER BY people_count DESC;-- Most of customer come from US, Followed by UK, canada, Germany, Australia, Ducth, France, Italy
+
+--Store TABLE
+
+SELECT COUNT( StoreKey)
+FROM Stores;--67 TOTAL store including 1 online websites
+
+SELECT country, COUNT(StoreKey) as count_store
+FROM Stores
+GROUP BY Country
+ORDER BY count_store DESC;-- top 3: US have 24 stores, germany have 9 and UK have 7
+
+-- SALES TABLE
+
+SELECT COUNT(OrderNumber)
+FROM Sales;--62884 ORDER
+
+SELECT STRFTIME('%Y',OrderDate) AS year,
+       STRFTIME('%m', OrderDate) AS month,
+	   COUNT(OrderNumber)
+FROM Sales
+GROUP BY year, month;
+
+
+--combine TABLE
+
+SELECT OrderNumber, LineItem, OrderDate, DeliveryDate,s.CustomerKey,c.Country, c.Continent, s.StoreKey, st.Country AS store_country, s.ProductKey, s.Quantity, p.ProductName, p.Brand, p.Color, p.UnitCost, p.UnitPrice, p.Subcategory, p.Category
+FROM sales AS s
+INNER JOIN Customers AS c
+ON s.CustomerKey = c.CustomerKey
+INNER JOIN Products AS p
+ON s.ProductKey = p.ProductKey
+INNER JOIN Stores AS st
+ON S.StoreKey = st.StoreKey
+GROUP BY OrderNumber, LineItem;
