@@ -1,10 +1,11 @@
 # TechNova 2020-2024 SalesPerformance
 
-![TechNova Report (1)_page-0001](https://github.com/user-attachments/assets/a14589a7-4087-4596-a014-a412075642ac)
-![TechNova Report (1)_page-0002](https://github.com/user-attachments/assets/de7bbb30-942e-4c18-a2a0-f45f5d963645)
-![TechNova Report (1)_page-0003](https://github.com/user-attachments/assets/5f0c3922-fd11-4d7d-950c-afb8ab8aa6d3)
-![TechNova Report (1)_page-0004](https://github.com/user-attachments/assets/b27c0d7a-1ec2-4583-ad57-77adfb3f8711)
-![TechNova Report (1)_page-0005](https://github.com/user-attachments/assets/38297ffb-17d9-4cb0-b022-5623015c64c6)
+![TechNova Report (2)_page-0001](https://github.com/user-attachments/assets/72f57a05-5921-4f10-9a0d-d6ba2c84c54b)
+![TechNova Report (2)_page-0002](https://github.com/user-attachments/assets/30ef273a-f8aa-40d3-853c-3311d165c0c6)
+![TechNova![TechNova Report (2)_page-0004](https://github.com/user-attachments/assets/347724ac-51f4-4bde-8da6-6ac3e52a660d)
+ Report (2)_page-0003](https://github.com/user-attachments/assets/48dc918c-9078-4310-8d18-14fee4678154)
+![TechNova Report (2)_page-0005](https://github.com/user-attachments/assets/7bee607b-6a49-4cb0-b6d2-0b0731d379f3)
+
 
 
 
