@@ -1,4 +1,4 @@
-# TechNova 2020-2024 SalesPerformance
+# TechNova 2020-2024 Sales Performance
 
 ![TechNova Report (2)_page-0001](https://github.com/user-attachments/assets/06a5c410-0f9b-4e7d-a6c2-35f478a56b15)
 ![TechNova Report (2)_page-0002](https://github.com/user-attachments/assets/b9423b08-6ed0-424d-8e38-497dc74a794a)
