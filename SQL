@@ -1,0 +1,19 @@
+-- sales TABLE
+--check null value in importance column
+SELECT StoreKey, ProductKey
+FROM Sales
+WHERE StoreKey IS NULL 
+OR ProductKey IS NULL;
+-- no null in storekey and ProductKey column
+
+-- REMOVE THE DOLLAR sign in UnitPriceUSD COLUMN
+ALTER TABLE Products
+ADD COLUMN UnitPrice;
+UPDATE Products
+SET UnitPrice= CAST(REPLACE(REPLACE(UnitPriceUSD, '$', ''), ',', '') AS REAL);
+
+-- Remove The dollar sign in UnitCostUSD
+ALTER TABLE Products
+ADD COLUMN UnitCost;
+UPDATE Products
+SET UnitCost = CAST(REPLACE(REPLACE(UnitCostUSD, '$', ''), ',', '') AS REAL);
